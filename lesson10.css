@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+
+    /* xiralashtiradi yoki bjr bjr */
+    /* filter: blur(5px); */
+
+    /* yorug'lik darajasi */
+    /* filter: brightness(8%); */
+
+    /* yorqinlik */
+    /* filter: contrast(200%); */
+
+    /* oq-qora */
+    /* filter: grayscale(100%); */
+
+    /* filter: blur(5px) grayscale(100%); */
+
+    /* avatar-hulk */
+    /* filter: hue-rotate(450deg); */
+
+    /* rentgen */
+    /* filter: invert(100%); */
+
+    /* qizil ko'proq beradi */
+    /* filter: saturate(1000%); */
+
+    filter: sepia(100%);
+}
+
+.main {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.main h2 {
+    display: inline-block;
+    border: 1px solid blue;
+    height: 50px;
+    width: 200px;
+}
+.main span {
+    display: block;
+    border: 1px solid green;
+    height: 50px;
+}
+.container{
+    width: 80%;
+height: 300px;
+margin: 20px auto;
+border: 1px solid red;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    display: inline-block;
+}
+.hidden {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    display: none;
+}
+
+/* 
+combinators
+">" --> only child 
+"+"  --> first neighbor
+"~"  --> all neighbors
+"*" ---> not child
+*/
+
+.card * p {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
